@@ -8,7 +8,10 @@ h1{
 h1 a{
     text-decoration: none;
     color: white;
+    cursor:help
 }
+
+
 
 #menu ol{
     border-right: 3px solid black;
@@ -23,6 +26,9 @@ ol a{
     color: black;
 }
 
+#menu ol a:hover{
+    color: white;
+}
 ol{
     color: black;
     font-size: 20px;
@@ -58,4 +64,18 @@ body {
     background-attachment: fixed;
     background-size: 15%;
  
+}
+
+#pr1 {
+    background-color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    text-shadow: 1px 1px 2px black;
+    border: black solid 2px;
+}
+#pr1:hover, #pr1 :active{
+    color: white;
+    background-color: black;
 }
