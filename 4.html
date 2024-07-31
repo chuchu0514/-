@@ -3,11 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>CornerStone</title>
-        <link rel="stylesheet" href="style.css">
+        <link id='stylesheet' rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
     </head>
       <body>
-        <h1><a href="https://youtu.be/rHgbUAi3E3g?si=BrtyWc3JgSRr6obi">개발 목표</a></h1>
+        <h1><a href="https://youtu.be/rHgbUAi3E3g?si=BrtyWc3JgSRr6obi">개발 목표 </a></h1>
+
+        
         <div id="all">
             <div id="sall">
                 <div id="menu">
@@ -23,12 +25,28 @@
                 <div id="content">
                     <ol>
                     <p>연습하는 페이지입니다.</p>
-                    <a href="https://youtu.be/Aj6NOR-KYwc?si=nA2KG3VCudNOszDL" id="pr1">Link</a>
+                    <a href="https://youtu.be/Aj6NOR-KYwc?si=nA2KG3VCudNOszDL" id="pr1" target="_blank" title="캐리링">Link</a>
+                    <button id="change">night</button>
+            <script>
+                document.getElementById('change').addEventListener('click',function()
+                {
+                    var stylesheet= document.getElementById('stylesheet');
+                    if(stylesheet.getAttribute('href')==='style.css')
+                {
+                    stylesheet.setAttribute('href','style1.css');
+                    this.textContent='day';
+                }else{
+                    stylesheet.setAttribute('href','style.css');
+                    this.textContent='night';
+                }
+                });
+            </script>
                     </ol>
                 </div>
             </div>
             
         </div>
-            
+   
+        
       </body>
 </html>

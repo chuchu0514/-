@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-   border-bottom: 3px solid black;
+   border-bottom: 3px solid white;
    padding-bottom: 20px;
    margin: 0;
 }
@@ -14,7 +14,7 @@ h1 a{
 
 
 #menu ol{
-    border-right: 3px solid black;
+    border-right: 3px solid white;
     width: 175px;
     margin: 0;
     padding-top: 25px;
@@ -23,14 +23,14 @@ h1 a{
 }
 
 ol a{
-    color: black;
+    color: white;
 }
 
 #menu ol a:hover{
-    color: white;
+    color: black;
 }
 ol{
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: verdana;
 }
@@ -57,7 +57,7 @@ ol{
 }
 
 body {
-    background-color: lightblue;
+    background-color: black;
     background-image: url("3153.png");
     background-repeat: no-repeat;
     background-position: left center;
@@ -67,18 +67,19 @@ body {
 }
 
 #pr1 {
-    background-color: white;
+    background-color: black;
     padding: 15px 25px;
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    text-shadow: 1px 1px 2px black;
-    border: black solid 2px;
+    text-shadow: 1px 1px 2px white;
+    border: white solid 2px;
 }
 #pr1:hover, #pr1 :active{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
+
 
 #change{
     width: 150px; /* 버튼의 너비 */
