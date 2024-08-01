@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
 
-    <script>
-       function nightdayhandler(self)
-        {
-         var target= document.querySelector('body');
-    var alist=document.querySelectorAll('a');
-    if(self.value==='night')
-    {
-    self.value='day';
-    target.style.backgroundColor='black';
-    target.style.color='white';
-    var i=0;
-    while(i<alist.length)
-    {
-    alist[i].style.color='white';
-    i=i+1;
-    }
-   }
-
-
-    else{
-    self.value='night';
-    target.style.backgroundColor='white';
-    target.style.color='black';
-    var i=0;
-    while(i<alist.length)
-    {
-    alist[i].style.color='black';
-    i=i+1;
-    }
-    }
-}
-    </script>
-</head>
-<body>
-   
-            <input id="night_day" type="button" value="night" onclick="nightdayhandler(this)">
-   
-    
-</body>
-</html>
 
 
 
